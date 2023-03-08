@@ -1,3 +1,4 @@
+<% if enhanced_cart.length > 0 %>
 <section class="cart-show">
 
   <header class="page-header">
@@ -48,5 +49,10 @@
       <% end %>
     </div>
   </div>
+  <% else %>
+  <div class="alert alert-info" role="alert" style="margin-top: 50px">
+  Your cart is empty start shopping <a href=<%=root_url %>>here</a>.
+  </div>
+  <%end%>
 
 </section>
