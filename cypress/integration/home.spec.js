@@ -3,7 +3,7 @@ describe('jungle to open', () => {
 
 
 
-    cy.visit('http://127.0.0.1:3000')
+    cy.visit('/')
   });
   
 
